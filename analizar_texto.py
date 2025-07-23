@@ -116,7 +116,7 @@ def menu():
         
         #si el usuario ingresa algo que no es un numero entero
         except ValueError:
-            print("❌ Por favor, ingresa un número entero válido.")
+            print("Por favor, ingresa un número entero válido.")
             
         #captura cualquier error y lo muestra
         except Exception as e:
